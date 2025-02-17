@@ -15,7 +15,7 @@ int main()
 {
 	ofGLESWindowSettings settings;
 	settings.glesVersion = 2;
-	settings.setSize(720, 480);
+	settings.setSize(640, 480);
 	settings.windowMode = OF_WINDOW;
 	ofCreateWindow(settings);
 	ofRunApp(new ofApp());
