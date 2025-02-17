@@ -519,7 +519,7 @@ void ofApp::midiSetup()
 void ofApp::inputSetup()
 {
 	cam1.setDesiredFrameRate(30);
-	cam1.initGrabber(640, 480);
+	cam1.setup(640, 480);
 }
 
 //-----------------------------------------------------------
