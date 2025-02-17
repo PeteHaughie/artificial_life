@@ -282,7 +282,7 @@ void ofApp::draw()
 	}
 	if (internal_feedback_switch1 == 1)
 	{
-		shader_osc1.setUniformTexture("cam1", fb_osc1_pp.getTextureReference(), 1);
+		shader_osc1.setUniformTexture("cam1", fb_osc1_pp.getTexture(), 1);
 	}
 
 	osc1_rate += osc_rate_scale * p_lock_smoothed[3] + sin(osc0_rate) * p_lock_smoothed[15] * osc_rate_mod_scale;
